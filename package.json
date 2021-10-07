@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --host 0.0.0.0 --mode development",
     "build": "webpack --mode production",
     "postbuild": "node postbuild.js"
   },
